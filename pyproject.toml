@@ -1,0 +1,20 @@
+[project]
+name = "askyourdocs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nemo-code-ai", email = "themichaelugwumbanwoye@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pypdf>=6.16.2",
+]
+
+[project.scripts]
+askyourdocs = "askyourdocs:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
